@@ -3,12 +3,14 @@ package branch_class;
 public class branch_class {
     int salary;
     String name;
+
     double d;
 
     public branch_class(int salary, String name, double d) {
         this.salary = salary;
         this.name = name;
         this.d = d;
+
     }
 
     public int getSalary() {
