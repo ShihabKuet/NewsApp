@@ -3,12 +3,12 @@ package branch_class;
 public class branch_class {
     int salary;
     String name;
-    float f;
+    double d;
 
-    public branch_class(int salary, String name, float f) {
+    public branch_class(int salary, String name, double d) {
         this.salary = salary;
         this.name = name;
-        this.f = f;
+        this.d = d;
     }
 
     public int getSalary() {
@@ -27,11 +27,11 @@ public class branch_class {
         this.name = name;
     }
 
-    public float getF() {
-        return f;
+    public double getD() {
+        return d;
     }
 
-    public void setF(float f) {
-        this.f = f;
+    public void setD(double d) {
+        this.d = d;
     }
 }
